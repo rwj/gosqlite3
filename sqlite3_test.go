@@ -2,7 +2,7 @@ package sqlite3
 
 import "testing"
 
-func TestSession(t *testing.T) {
+func TestSession(t *testing.T) {坎坎坷坷
 	Session("test.db", func(db *Database) {
 		FOO.Drop(db)
 		FOO.Create(db)
